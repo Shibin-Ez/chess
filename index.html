@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chess</title>
+    <link rel="icon" href="icon.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="first-page">
+        <!-- <h3>Choose Mode</h3> -->
+        <button type="button" class="choose-btn comp-btn" onclick="modeToComp()">Computer</button>
+        <button type="button" class="choose-btn multi-btn" onclick="modeToMulti()">Multiplayer</button>
+    </div>
+    <div id="chess-page" class="hide">
+        <div class="flex-display">
+            <div id="left-side">
+
+            </div>
+            <div id="chess-board">
+
+            </div>
+            <div id="right-side">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
